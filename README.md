@@ -1,6 +1,4 @@
-Hello DataCurve recruiter,
-
-Here is how to setup your local machine to run my submission:
+Hello! Here is how to setup your local machine to run this Python 3 code executor:
 
 Start the backend:
 - Clone this repo
@@ -14,4 +12,4 @@ Start the frontend:
 - cd my-code-execution-app
 - npm run dev
 
-If anything goes wrong, please feel free to contact me. I also attached a picture of the working website in this repo named "Project Demo".
+If anything goes wrong, I also attached a picture of the working website in this repo named "Project Demo".
