@@ -13,7 +13,7 @@ Start the backend:
 - uvicorn main:app --reload
 
 Start the frontend:
-- cd my-code-execution-app
+- cd frontend
 - npm run dev
 
 If anything goes wrong, I also attached a picture of the working website in this repo named "Project Demo".
