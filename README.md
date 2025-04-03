@@ -1,25 +1,3 @@
-Hello! In this repo is the code for a website with a code execution environment for Python 3. The code can be put in the Monaco code editor workspace and you can see the resulting code be printed when the "Test Code" button is hit. The code can additionally be saved to your local machine (in a local sqlite database file) by hitting the "submit" button.
-
-This website was made using React (Vite), Typescript, and Tailwind CSS for the frontend, and uses Python and FastAPI for the backend.
-
-Here is how to setup your local machine to run this Python 3 code executor:
-
-Start the backend:
-- Clone this repo
-- cd backend
-- python -m venv venv
-- .\venv\Scripts\activate (For Windows)
-- pip install -r requirements.txt
-- uvicorn main:app --reload
-
-Start the frontend:
-- cd frontend
-- npm run dev
-
-If anything goes wrong, I also attached a picture of the working website in this repo named "Project Demo".
-
-Created By: Nicholas Lee
-
 # 🐍 Web-Based Python Code Execution Environment
 
 Welcome to the Web-Based Python Code Execution Environment! This platform allows users to write, execute, and save Python 3 code directly from their web browser. Designed with an intuitive interface and robust backend, it streamlines your coding experience.
@@ -92,20 +70,4 @@ Save: Use the "Save" option to store your scripts for future reference.
 
 Contributions are welcome! Please fork the repository and submit a pull request with your enhancements.
 
----
-
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
----
-
-## 🔒 Security
-
-The code execution environment is sandboxed to prevent malicious code from accessing system resources. However, use at your own risk.
-
----
-
-## 📞 Contact
-
-For questions or feedback, please open an issue in the GitHub repository.
+Created by Nicholas Lee
