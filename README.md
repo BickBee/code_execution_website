@@ -65,33 +65,22 @@ Ensure you have the following installed:
    ```bash
    git clone https://github.com/BickBee/code_execution_website.git
 
-   Clone the Repository:
-bashCopygit clone https://github.com/BickBee/code_execution_website.git
+2. **Start the Backend:**
+   ```bash
+   cd backend
+   python -m venv venv
+   # Activate the virtual environment (Windows)
+   .\venv\Scripts\activate
+   pip install -r requirements.txt
+   uvicorn main:app --reload
 
-Navigate to the Project Directory:
-bashCopycd code_execution_website
+3. **Start the Frontend:**
+   ```bash
+   cd ../frontend
+   npm install
+   npm run dev
 
-Install Frontend Dependencies:
-bashCopycd frontend
-npm install
-
-Install Backend Dependencies:
-bashCopycd ../backend
-pip install -r requirements.txt
-
-
-Running the Application
-
-Start the Backend Server:
-bashCopycd backend
-uvicorn main:app --reload
-The backend server will run at http://127.0.0.1:8000.
-Start the Frontend Server:
-bashCopycd ../frontend
-npm run dev
-Access the application at http://localhost:3000.
-
-🖥️ Usage
+## 🖥️ Usage
 
 Write Code: Use the code editor to type your Python scripts.
 Execute: Click the "Run" button to execute your code. The output will be displayed below the editor.
