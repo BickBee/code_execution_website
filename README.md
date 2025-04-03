@@ -70,4 +70,6 @@ Save: Use the "Save" option to store your scripts for future reference.
 
 Contributions are welcome! Please fork the repository and submit a pull request with your enhancements.
 
-Created by Nicholas Lee
+---
+
+## Created by Nicholas Lee
