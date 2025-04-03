@@ -86,6 +86,8 @@ Write Code: Use the code editor to type your Python scripts.
 Execute: Click the "Run" button to execute your code. The output will be displayed below the editor.
 Save: Use the "Save" option to store your scripts for future reference.
 
+---
+
 ## 🤝 Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request with your enhancements.
