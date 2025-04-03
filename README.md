@@ -86,11 +86,24 @@ Write Code: Use the code editor to type your Python scripts.
 Execute: Click the "Run" button to execute your code. The output will be displayed below the editor.
 Save: Use the "Save" option to store your scripts for future reference.
 
-🤝 Contributing
+## 🤝 Contributing
+
 Contributions are welcome! Please fork the repository and submit a pull request with your enhancements.
-📝 License
+
+---
+
+## 📝 License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
-🔒 Security
+
+---
+
+## 🔒 Security
+
 The code execution environment is sandboxed to prevent malicious code from accessing system resources. However, use at your own risk.
-📞 Contact
+
+---
+
+## 📞 Contact
+
 For questions or feedback, please open an issue in the GitHub repository.
